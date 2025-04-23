@@ -41,6 +41,18 @@
 		{
 			"Source": "/ZSAM2305/Pages/WorkOrders/Operations/WorkOrderOperationDetails.page",
 			"Target": "/SAPAssetManager/Pages/WorkOrders/Operations/WorkOrderOperationDetails.page"
+		},
+		{
+			"Source": "/ZSAM2305/Pages/WorkOrders/WorkOrderHistoryDetails.page",
+			"Target": "/SAPAssetManager/Pages/WorkOrders/WorkOrderHistoryDetails.page"
+		},
+		{
+			"Source": "/ZSAM2305/Rules/WorkOrders/Operations/NavOnCompleteOperationPage.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/Operations/NavOnCompleteOperationPage.js"
+		},
+		{
+			"Source": "/ZSAM2305/Rules/WorkOrders/Details/IsBusinessPartnersFacetVisible.js",
+			"Target": "/SAPAssetManager/Rules/WorkOrders/Details/IsBusinessPartnersFacetVisible.js"
 		}
 	]
 }
